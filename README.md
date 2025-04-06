@@ -1,4 +1,3 @@
-```markdown
 # FitzToneClassifier
 **This repository provides a comprehensive application for image preprocessing, training, and inference of PyTorch classifiers, including skin tone classification based on the Fitzpatrick scale.**
 
