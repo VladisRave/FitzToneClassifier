@@ -1,0 +1,29 @@
+name: FitzToneClassifier
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=2.0.2
+  - pandas
+  - scipy
+  - matplotlib
+  - tqdm
+  - jinja2
+  - pillow
+  - dlib=19.24
+  - opencv=4.11
+  - scikit-learn
+  - pip:
+      - torch==2.6.0+cu118
+      - torchvision==0.21.0+cu118
+      - torchaudio==2.6.0+cu118
+      - mtcnn==0.1.1
+      - tensorflow==2.15.0
+      - tensorflow-io-gcs-filesystem
+      - namex
+      - rich
+      - sympy

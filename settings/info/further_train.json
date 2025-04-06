@@ -1,0 +1,14 @@
+{
+   "model": ["alexnet"],
+   "learning_rate": 0.02,
+   "lr_max": 0.03,
+   "lr_min": 0.0005,
+   "num_epochs": 1,
+   "batch_size": 32,
+   "num_classes": 6,
+   "optimizers": "AdamW",
+   "betas": [0.9, 0.999],
+   "eps": 1e-8,
+   "weight_decay": 0.01
+}
+

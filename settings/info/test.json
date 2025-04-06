@@ -1,0 +1,7 @@
+{
+   "model": ["alexnet"],
+   "weights": "./result/",
+   "batch_size": 32,
+   "num_classes": 6,
+   "device": "cuda"
+}
