@@ -1,5 +1,5 @@
 {
-   "model": ["alexnet"],
+   "model": ["convnext_tiny"],
    "weights": "./result/",
    "batch_size": 32,
    "num_classes": 6,
